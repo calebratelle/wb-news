@@ -19,3 +19,6 @@ export default function App() {
     </BrowserRouter>
   );
 }
+
+//nodemon server/server.js -w server
+//use the above INSTEAD OF NPM RUN DEV

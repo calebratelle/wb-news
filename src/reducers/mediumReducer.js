@@ -19,6 +19,7 @@ export default function mediumReducer(state = initialState, action) {
       case PENDING:
         return { ...state, loading: true };
       case REQUEST_ARTICLES:
+        console.log('asdf')
         return { loading: false, articles: action.payload }
       default:
         return state;
